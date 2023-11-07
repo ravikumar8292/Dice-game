@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-left: 7vw; 
+    margin-top: 80px;
+   width: 80vw;
+   justify-content: space-around;
+   align-items: center;
+}
+.nav{
+    width: 82vw;
+    height: 15vh;
+    position: absolute;
+    top: 50px;
+    right: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.total_score p{
+    font-size: 100px;
+}
+.showscore p{
+    margin-bottom: 12px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: end;
+}
+.btn button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 23px;
+    transition: 0.5s ease-in-out;
+}
+
+.warning{
+    margin-bottom: 12px;
+}
+.warning p{
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+}
+
+.btn button p{
+    font-size: 23px;
+    font-weight: bold;
+}
+.para{
+    margin-top: 9px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comp-image-div{
+    margin-top: 50px;
+    /* margin-bottom: 30px; */
+}
+.comp-image img{
+    width: 208px;
+    height: 208px;
+    cursor: pointer;
+}
+.cont{
+    margin-top: 18px;
+}
+.cont p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.firstbtn button,.secondbtn button{
+    width: 180px;
+    height: 33px;
+    border-radius: 6px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.firstbtn button:hover{
+    background-color: black;
+    color: white;
+}
+.secondbtn button{
+    background-color: black;
+    color: white;
+}
+.firstbtn button p,.secondbtn button p{
+    font-size: 17px;
+}
+
+.show-rule{
+    margin-bottom: 10px;
+    text-align: start;
+    background-color: #fbf1f1;
+    color: rgb(10, 10, 10);
+}
+.show-rule h2{
+    margin-bottom: 19px;
+}
+.show-rule h2,p{
+    padding-left: 9px;
+    padding-right: 9px;
+}
+.show-rule p{
+    padding-bottom: 6px;
+}
